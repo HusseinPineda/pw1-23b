@@ -45,7 +45,10 @@
 .unsa {
     display: inline-block;
     margin: 5vh;
+    align-items: center;
     vertical-align: middle;
+    width: 80vw;
+    height: 20vh;
 }
 
 .text {
@@ -55,7 +58,7 @@
     margin: 0;
     padding: 0;
     font-size: 3vh;
-    border-radius: 5% / 25%;
+    border-radius: 5% / 15%;
     text-align: justify;
     background-color: rgb(233, 233, 233);
     padding: 3% 5% 3%;
@@ -63,10 +66,22 @@
 }
 .me {
     height: 50vh;
-    width: 40 vw;
-    border-radius: 20% / 40%;
+    width: 40vw;
+    border-radius: 20% / 10%;
     margin-left: 5vw;
 }
+.unsa .text {
+    border-radius: ;
+}
+
+.imgStud {
+    display: inline;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10% / 15%;
+    margin-left: 5vw;
+}
+
 h1 {
     display: block;
     width: 26vw;
