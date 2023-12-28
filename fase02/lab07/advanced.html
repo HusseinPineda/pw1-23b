@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <meta charset='UTF-8'>
+    <meta name = 'language' content = 'ES'>
+    <meta name = 'author' content = 'Hussein Pineda'>
+    <meta name = 'date' content = 'Dec. 26, 2023'>
+    <meta name = 'viewport' content = 'widht=device-width, initial-scale=1.0'>
+    <link rel = 'stylesheet' type = 'text/css' href = './src/style.css'>
+    <link rel = 'shortcut icon' type = 'image/ico' href = './src/logoicon.jpg'>
+
+    <head>
+        <title>My Browser</title>
+    </head>
+    <body>
+        <h1>
+            Búsqueda Avanzada
+        </h1>
+        <nav class="navbar">
+            <div class="list">
+                <ul>
+                    <li >
+                        <a href="index.html">Búsqueda de Google</a>
+                    </li>
+                    <li>
+                        <a href="images.html">Búsqueda por imágenes</a>
+                    </li>
+                    <li style="background-color: rgb(34, 9, 75);">
+                        <a href="advanced.html">Búsqueda avanzada</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="logoSearch">
+            <img src="./src/logosearch.jpg">
+        </div>
+        
+        <h3>
+            Ingrese su búsqueda en el cuadro que se muestra a continuación. 
+        </h3>
+
+        <br>
+
+        <div class="busqueda">
+            <form action="./cgi-bin/search.pl" method="GET">
+                <input class="searchBox" type='text' name='search'>
+                <input class="botonBuscar" type='submit' value='Buscar'>
+            </form>
+        </div>
+   
+        <footer>
+            <div class="data">
+                Hussein Emmanuel Pineda Vilca
+                <br>Arequipa, Perú
+                <br>27 Diciembre 2023, All rights reserved
+            </div>
+            <div class="logo">
+                <img src="./src/unsa-logo.png">
+            </div>
+        </footer>
+    </body>
+
+</html>
